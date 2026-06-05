@@ -23,4 +23,6 @@ export const REQUEST_DELAY_MS = 50;
 
 export const SOURCE_FILE = process.env.SOURCE_FILE || '';
 
+export const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || '';
+
 export const SYNC_SYNERISE = process.env.SYNC_SYNERISE === 'true' || process.argv.includes('--sync-synerise');
