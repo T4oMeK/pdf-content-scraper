@@ -86,6 +86,7 @@ async function main() {
                     id: rest.fileName ?? chunkId,
                     title: id,
                     category: productCategory,
+                    productCategory: productCategory,
                 });
             });
         }
@@ -98,6 +99,7 @@ async function main() {
                 id: rest.fileName ?? id,
                 title: id,
                 category: productCategory,
+                productCategory: productCategory,
             });
         }
     }
